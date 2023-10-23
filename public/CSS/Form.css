@@ -1,0 +1,105 @@
+
+
+.singu-page{
+    /* margin-top: 2rem; */
+    padding: 2.2rem 0 2.2rem 0;
+    background-color: rgb(245, 247, 248);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.form-group{
+    display: flex;
+    align-content: center;
+}
+
+.form-group .icon{
+    margin: 1rem 0.9rem auto 0;
+}
+
+.form-group .user-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group .user-details label{
+    font-size: 14px;
+    color: #aeaeae;
+    font-family: 'TradeGothic LT';
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.user-details input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 213, 0);
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.singup-box{
+    margin-top: 2rem;
+}
+
+.user-details .input-line{
+    width: 170%;
+}
+
+.user-details select{
+    width: 395%;
+    height: 70%;
+    text-align: center;
+    background: transparent;
+    border: 2px solid rgb(255, 213, 0);
+    outline: none;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    color: #aeaeae;
+    font-family: 'TradeGothic LT';
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
+.singup-clo{
+    margin: 5rem 0 7rem 0;
+}
+
+.singup-button{
+    margin: 3rem 0 0 0;
+}
+
+.singup-button button{
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    background: #189BE8;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.footer-section{
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.footer-section ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer-section ul li{
+    margin: 0 0.7rem 0 0.7rem;
+}
+
+.footer-section ul li a i{
+    font-size: 2rem;
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secure Port</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
+    <link rel="stylesheet" href="./CSS/Form.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-left nav-bar">
+        <img src="./icon/outdoor-parking_1545920.png" alt="" class="web-logo" />
+        <span>Secure Port</span>
+      </div>
+      <div class="nav-middle nav-bar">
+        <a href="#">Login</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Abot us</a>
+        <a href="#">Service</a>
+      </div>
+    </nav>
+
+    <section class="singu-page">
+      <div class="container">
+        <div class="row">
+          <form
+            action=""
+            id="sing_Up"
+            class="w-100"
+            method="post"
+            novalidate="novalidate"
+          >
+            <div class="row" style="margin-right: 0">
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-user" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <label for="f-Name">First Name*</label>
+                    <input
+                      class="input-line"
+                      id="f-Name"
+                      type="text"
+                      value=""
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-user" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <label for="f-Name">Last Name*</label>
+                    <input
+                      class="input-line"
+                      id="f-Name"
+                      type="text"
+                      value=""
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-envelope" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <label for="f-Name">Email Address*</label>
+                    <input
+                      class="input-line"
+                      id="f-Name"
+                      type="email"
+                      value=""
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-envelope" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <label for="f-Name">Confirm Email Address*</label>
+                    <input
+                      class="input-line"
+                      id="f-Name"
+                      type="email"
+                      value=""
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-phone-call" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <label for="f-Name">Mobile number*</label>
+                    <input
+                      class="input-line"
+                      id="f-Name"
+                      type="tel"
+                      value=""
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-male-female" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <select name="gender" id="gender">
+                        <option value="">Select gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-lock" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <label for="f-Name">Password*</label>
+                    <input
+                      class="input-line"
+                      id="f-Name"
+                      type="password"
+                      value=""
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-lock" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <label for="f-Name">Confirm password*</label>
+                    <input
+                      class="input-line"
+                      id="f-Name"
+                      type="password"
+                      value=""
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-user" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <select name="gender" id="gender">
+                        <option value="">Id proof</option>
+                        <option value="">Addhar</option>
+                        <option value="">Driving Licience</option>
+                    </select>
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-md-6 singup-box">
+                <div class="form-group">
+                  <div class="icon">
+                    <i class="bx bx-user" style="font-size: 2rem"></i>
+                  </div>
+                  <div class="user-details">
+                    <label for="f-Name">First Name*</label>
+                    <input
+                      class="input-line"
+                      id="f-Name"
+                      type="text"
+                      value=""
+                      min="0"
+                      max="100"
+                    />
+                  </div>
+                  <div class="requried"></div>
+                </div>
+              </div>
+
+              <div class="col-lg-12 text-center singup-clo">
+                <div class="from-check">
+                    <label class="from-check">
+                        <input type="checkbox" name="" id="" class="term-and-condition">
+                        I accept the
+                        <span style="color: #189BE8;">terms & conditions</span>
+                        of membership.
+                    </label>
+                </div>
+
+                <div class="singup-button">
+                    <button><a href="#" style="color: white;">Submit</a></button>
+                </div>
+              </div>
+
+
+              <div class="container-fluid w-100">
+                <div class="footer-section d-sm-flex align-items-center justify-content-center">
+                    <ul>
+                        <li><a href="#"><i class='bx bxl-facebook-circle' ></i></a></li>
+                        <li><a href=""><i class='bx bxl-linkedin'></i></a></li>
+                        <li><a href=""><i class='bx bxl-twitter'></i></a></li>
+                        <li><a href=""><i class='bx bxl-youtube' ></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-copy text-center">
+                    <span>@ 2023 Secure Parking. All rights reserved.</span>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

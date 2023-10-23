@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parking</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./CSS/navbar.css" />
+  <link rel="stylesheet" href="./CSS/carousel.css" />
+  <link rel="stylesheet" href="./CSS/rules.css">
+  <link rel="stylesheet" href="./CSS/footer.css">
+  <!-- <link rel="stylesheet" href="./CSS/Form.css"> -->
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <div class="nav-left nav-bar">
+      <a href="/homepage"><img src="./icon/outdoor-parking_1545920.png" alt="" class="web-logo" /></a>
+      <span>Secure Port</span>
+    </div>
+    <div class="nav-middle nav-bar">
+      <a href="#" id="login-btn">Login</a>
+      <a href="" id="singUp_Button">Sign up</a>
+      <a href="#" class="land_Btn">Register Land</a>
+      <a href="/user">User</a>
+      <a href="#">Service</a>
+    </div>
+  </nav>
+
+  <div class="container-fluid register-land">
+    <div class="rules">
+      <h2>Term & Conditions</h2>
+      <div class="rules-list">
+        <ul>
+          <li>
+            <input type="checkbox" />The land should not be in a muddy area .
+          </li>
+          <li><input type="checkbox" />There should be proper flooring .</li>
+          <li>
+            <input type="checkbox" />Proper documentation of the land should
+            be presented while registration.
+          </li>
+          <li>
+            <input type="checkbox" />The land owner should make sure that no
+            damage is caused to the car, by any people of their surrounding
+            people or pets.
+          </li>
+        </ul>
+      </div>
+      <button type="button">Register Land</button>
+    </div>
+  </div>
+
+  <div class="container side-login-page col">
+    <div class="col login-page" style="margin-left:0.5rem">
+      <div class="col-md-6 singup-box">
+        <div class="form-group">
+          <div class="icon">
+            <i class="bx bx-user" style="font-size: 2rem; color: #189BE8;"></i>
+          </div>
+          <div class="user-details">
+            <label for="f-Name">Email Address</label>
+            <input class="input-line" id="f-Name" type="email" value="" min="0" max="100" />
+          </div>
+          <div class="requried"></div>
+        </div>
+      </div>
+
+      <!-- <h4 style="margin-left: 8.5rem; margin-top: 1rem; color:  #189BE8;">or</h4> -->
+
+      <div class="col-md-6 singup-box" style="margin-top: 2rem;">
+        <div class="form-group">
+          <div class="icon">
+            <i class="bx bx-lock" style="font-size: 2rem; color: #189BE8;"></i>
+          </div>
+          <div class="user-details">
+            <label for="f-Name">Password</label>
+            <input class="input-line" id="f-Name" type="password" value="" min="0" max="16" />
+          </div>
+          <div class="requried"></div>
+        </div>
+      </div>
+
+      <div class="d-flex login-term">
+        <div class="span">
+          <span style="font-size: 14px;
+          color: #189BE8;
+          font-family: 'TradeGothic LT';
+          font-weight: 700; margin-left: 2.9rem;">Forget Password?</span>
+        </div>
+        <div class="term">
+          <span style="font-size: 14px;
+          color: #189BE8;
+          font-family: 'TradeGothic LT';
+          font-weight: 700; margin-left: 8.5rem;">term & conditions</span>
+        </div>
+      </div>
+
+      <div class="col-md-6" style="margin-top: 4rem;">
+        <button type="button" class="login-button">Submit</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid carousel-info">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active carousel-images">
+          <img src="./images/car park 1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>
+              Some representative placeholder content for the first slide.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-images">
+          <img src="./images/WhatsApp Image 2023-10-21 at 13.10.25_40280c66.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>
+              Some representative placeholder content for the second slide.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item carousel-images">
+          <img src="./images/car-parking.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>
+              Some representative placeholder content for the third slide.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container card">
+    <h2 style="text-align: center;">Why Us?</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 card-image">
+          <img src="./icon/cog-regular-96.png" class="card-img-top" alt="...">
+          <div class="card-body card-info">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card-image">
+          <img src="./icon/cog-regular-96.png" class="card-img-top" alt="...">
+          <div class="card-body card-info">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 card-image">
+          <img src="./icon/cog-regular-96.png" class="card-img-top" alt="...">
+          <div class="card-body card-info">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="section-8">
+    <div class="container-8">
+      <div class="row align-item-start">
+        <div class="col">
+          <h6 class="sec8-h6">Address</h6>
+          <li><i class="fa-solid fa-location-dot" style="color: #ffffff;"></i> 123 sreat CG India</li>
+          <li><i class="fa-solid fa-phone-flip" style="color: #ffffff;"></i> +917489630890</li>
+          <li><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> laxmi@gmail.com</li>
+        </div>
+        <div class="col">
+          <h6 class="sec8-h6">Quik Links</h6>
+          <li><i class="fa-solid fa-chevron-right" style="color: #a0a6b0;"></i> About us</li>
+          <li><i class="fa-solid fa-chevron-right" style="color: #a0a6b0;"></i> Contact Us</li>
+          <li><i class="fa-solid fa-chevron-right" style="color: #a0a6b0;"></i> Our Services</li>
+          <li><i class="fa-solid fa-chevron-right" style="color: #a0a6b0;"></i> Terms & Condition</li>
+          <li><i class="fa-solid fa-chevron-right" style="color: #a0a6b0;"></i> Support</li>
+        </div>
+        <div class="col">
+          <h6 class="sec8-h6">Newsletter</h6>
+          <p class="l-p">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <div class="input-group flex-nowrap">
+            <input type="text" class="form-control2" placeholder="Email" aria-label="Username"
+              aria-describedby="addon-wrapping">
+            <button id="sign">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+      <script src="./script/script.js"></script>
+</body>
+
+</html>
+
+
+<!-- 
+echo "# Parking-project" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Vikki2002/Parking-project.git
+git push -u origin main
+
+
+git remote add origin https://github.com/Vikki2002/Parking-project.git
+git branch -M main
+git push -u origin main-->
