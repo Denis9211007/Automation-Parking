@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Secure Port</title>
+    <link rel="shortcut icon" href="./icon/outdoor-parking_1545920.png" type="image/x-icon">
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -24,20 +25,18 @@
         <span>Secure Port</span>
       </div>
       <div class="nav-middle nav-bar">
-        <div class="nav-middle nav-bar">
-          <a href="#" id="login-btn">Login</a>
-          <a href="/signup" id="singUp_Button">Sign up</a>
-          <a href="#" class="land_Btn">Register Land</a>
-          <a href="/user">User</a>
-          <a href="#">Service</a>
+        <a href="#" id="login-btn">Login</a>
+        <a href="/signup" id="singUp_Button">Sign up</a>
+        <a href="#" class="land_Btn">Register Land</a>
+        <a href="/user">User</a>
+        <a href="#">Service</a>
       </div>
     </nav>
-
     <section class="singu-page">
       <div class="container">
         <div class="row">
           <form
-            action=""
+            action="/signup"
             id="sing_Up"
             class="w-100"
             method="post"
@@ -50,17 +49,16 @@
                     <i class="bx bx-user" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="f-Name">First Name*</label>
+                    <label for="first-Name">First Name*</label>
                     <input
                       class="input-line"
-                      id="f-Name"
+                      id="first-Name"
                       type="text"
                       value=""
-                      min="0"
-                      max="100"
+                      required
                     />
+                    <div class="requried">This field is required!</div>
                   </div>
-                  <div class="requried"></div>
                 </div>
               </div>
 
@@ -70,17 +68,16 @@
                     <i class="bx bx-user" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="f-Name">Last Name*</label>
+                    <label for="Last-Name">Last Name*</label>
                     <input
                       class="input-line"
-                      id="f-Name"
+                      id="Last-Name"
                       type="text"
                       value=""
-                      min="0"
-                      max="100"
+                      required
                     />
+                    <div class="requried">This field is required!</div>
                   </div>
-                  <div class="requried"></div>
                 </div>
               </div>
 
@@ -90,17 +87,16 @@
                     <i class="bx bx-envelope" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="f-Name">Email Address*</label>
+                    <label for="Email">Email Address*</label>
                     <input
                       class="input-line"
-                      id="f-Name"
+                      id="Email"
                       type="email"
                       value=""
-                      min="0"
-                      max="100"
+                      required
                     />
+                    <div class="requried">This field is required!</div>
                   </div>
-                  <div class="requried"></div>
                 </div>
               </div>
 
@@ -110,17 +106,16 @@
                     <i class="bx bx-envelope" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="f-Name">Confirm Email Address*</label>
+                    <label for="Email">Confirm Email Address*</label>
                     <input
                       class="input-line"
-                      id="f-Name"
+                      id="Email"
                       type="email"
                       value=""
-                      min="0"
-                      max="100"
+                      required
                     />
+                    <div class="requried">This field is required!</div>
                   </div>
-                  <div class="requried"></div>
                 </div>
               </div>
 
@@ -130,17 +125,16 @@
                     <i class="bx bx-phone-call" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="f-Name">Mobile number*</label>
+                    <label for="number">Mobile number*</label>
                     <input
                       class="input-line"
-                      id="f-Name"
+                      id="number"
                       type="tel"
                       value=""
-                      min="0"
-                      max="100"
+                     required
                     />
+                    <div class="requried">This field is required!</div>
                   </div>
-                  <div class="requried"></div>
                 </div>
               </div>
 
@@ -155,8 +149,8 @@
                         <option value="">Male</option>
                         <option value="">Female</option>
                     </select>
+                    <div class="requried">This field is required!</div>
                   </div>
-                  <div class="requried"></div>
                 </div>
               </div>
 
@@ -166,14 +160,15 @@
                     <i class="bx bx-lock" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="f-Name">Password*</label>
+                    <label for="password">Password*</label>
                     <input
                       class="input-line"
-                      id="f-Name"
+                      id="password"
                       type="password"
                       value=""
                       min="0"
-                      max="100"
+                      max="16"
+                      required
                     />
                   </div>
                   <div class="requried"></div>
@@ -186,14 +181,15 @@
                     <i class="bx bx-lock" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="f-Name">Confirm password*</label>
+                    <label for="password">Confirm password*</label>
                     <input
                       class="input-line"
-                      id="f-Name"
+                      id="password"
                       type="password"
                       value=""
                       min="0"
-                      max="100"
+                      max="16"
+                      required
                     />
                   </div>
                   <div class="requried"></div>
@@ -208,8 +204,8 @@
                   <div class="user-details">
                     <select name="gender" id="gender">
                         <option value="">Id proof</option>
-                        <option value="">Addhar</option>
-                        <option value="">Driving Licience</option>
+                        <option value="">Aadhar</option>
+                        <option value="">Driving License</option>
                     </select>
                   </div>
                   <div class="requried"></div>
@@ -222,14 +218,13 @@
                     <i class="bx bx-user" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="f-Name">First Name*</label>
+                    <label for="Id-proof">Id Proof*</label>
                     <input
                       class="input-line"
-                      id="f-Name"
-                      type="text"
+                      id="Id-proof"
+                      type="tel"
                       value=""
-                      min="0"
-                      max="100"
+                      required
                     />
                   </div>
                   <div class="requried"></div>
@@ -239,15 +234,15 @@
               <div class="col-lg-12 text-center singup-clo">
                 <div class="from-check">
                     <label class="from-check">
-                        <input type="checkbox" name="" id="" class="term-and-condition">
+                        <input type="checkbox" name="" id="checkbox" class="term-and-condition">
                         I accept the
                         <span style="color: #189BE8;">terms & conditions</span>
                         of membership.
                     </label>
                 </div>
 
-                <div class="singup-button">
-                    <button><a href="#" style="color: white;">Submit</a></button>
+                <div class="submit-form-button">
+                    <button style="color: white;">Submit</button>
                 </div>
               </div>
 
@@ -271,5 +266,6 @@
         </div>
       </div>
     </section>
+    <script src="./script/script.js"></script>
   </body>
 </html>
