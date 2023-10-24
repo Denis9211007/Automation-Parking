@@ -1,0 +1,17 @@
+{
+  "name": "nodejscp",
+  "version": "1.0.0",
+  "description": "Car Park",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Team Gambit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
