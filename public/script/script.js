@@ -16,7 +16,9 @@ const login = () => {
 const register = () => {
     document.querySelector(".register-land").classList.toggle("register-land-none")
 }
-
+var bootstrapButton = $.fn.button.noConflict() // return $.fn.button to previously assigned value
+$.fn.bootstrapBtn = bootstrapButton            // give $().bootstrapBtn the Bootstrap functionality
+$( "button.continue" ).html( "Next Step..." )
 singup_Button.addEventListener("click",submitForm)
 login_btn.addEventListener("click",login)
 registerLandBtn.addEventListener("click",register)

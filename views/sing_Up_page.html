@@ -51,10 +51,10 @@
                   <div class="user-details">
                     <label for="first-Name">First Name*</label>
                     <input
+                      name="firstName"
                       class="input-line"
                       id="first-Name"
                       type="text"
-                      value=""
                       required
                     />
                     <div class="requried">This field is required!</div>
@@ -70,6 +70,7 @@
                   <div class="user-details">
                     <label for="Last-Name">Last Name*</label>
                     <input
+                      name="lastName"
                       class="input-line"
                       id="Last-Name"
                       type="text"
@@ -89,6 +90,7 @@
                   <div class="user-details">
                     <label for="Email">Email Address*</label>
                     <input
+                      name="email"
                       class="input-line"
                       id="Email"
                       type="email"
@@ -108,6 +110,7 @@
                   <div class="user-details">
                     <label for="Email">Confirm Email Address*</label>
                     <input
+                      name="email"
                       class="input-line"
                       id="Email"
                       type="email"
@@ -127,6 +130,7 @@
                   <div class="user-details">
                     <label for="number">Mobile number*</label>
                     <input
+                      name="number"
                       class="input-line"
                       id="number"
                       type="tel"
@@ -146,8 +150,8 @@
                   <div class="user-details">
                     <select name="gender" id="gender">
                         <option value="">Select gender</option>
-                        <option value="">Male</option>
-                        <option value="">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
                     </select>
                     <div class="requried">This field is required!</div>
                   </div>
@@ -162,6 +166,7 @@
                   <div class="user-details">
                     <label for="password">Password*</label>
                     <input
+                      name="pass"
                       class="input-line"
                       id="password"
                       type="password"
@@ -181,10 +186,11 @@
                     <i class="bx bx-lock" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <label for="password">Confirm password*</label>
+                    <label for="passwordConfirm">Confirm password*</label>
                     <input
+                      name="passConfirm"
                       class="input-line"
-                      id="password"
+                      id="passwordConfirm"
                       type="password"
                       value=""
                       min="0"
@@ -202,10 +208,10 @@
                     <i class="bx bx-user" style="font-size: 2rem"></i>
                   </div>
                   <div class="user-details">
-                    <select name="gender" id="gender">
+                    <select name="Id-proof" id="Id-proof">
                         <option value="">Id proof</option>
-                        <option value="">Aadhar</option>
-                        <option value="">Driving License</option>
+                        <option value="Aadhar">Aadhar</option>
+                        <option value="License">Driving License</option>
                     </select>
                   </div>
                   <div class="requried"></div>
@@ -220,6 +226,7 @@
                   <div class="user-details">
                     <label for="Id-proof">Id Proof*</label>
                     <input
+                      name="ID"
                       class="input-line"
                       id="Id-proof"
                       type="tel"
@@ -234,7 +241,7 @@
               <div class="col-lg-12 text-center singup-clo">
                 <div class="from-check">
                     <label class="from-check">
-                        <input type="checkbox" name="" id="checkbox" class="term-and-condition">
+                        <input type="checkbox" name="checkbox" id="checkbox" class="term-and-condition">
                         I accept the
                         <span style="color: #189BE8;">terms & conditions</span>
                         of membership.
